@@ -1,0 +1,31 @@
+{
+  "name": "@ishawnwang/config-ts",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "iShawnWang",
+    "url": "https://ishawn.wang",
+    "email": "iShawnWang2333@gmail.com"
+  },
+  "homepage": "https://github.com/iShawnWang/config-ts",
+  "scripts": {
+    "build": "tsc ./index.ts",
+    "dev": "tsc ./index.ts && node ./index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "ts"
+  ],
+  "files": [
+    "index.js",
+    "README.MD"
+  ]
+}
